@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form method="post" action="connect.php">
+        <label for="FullName">FullName:</label>
+        <input type="text" id="FullName" name="FullName" required>
+        <br><br>
+
+        <label for="PhoneNumber">PhoneNumber:</label>
+        <input type="number" id="PhoneNumber" name="PhoneNumber" required>
+        <br><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="Subject">Subject:</label>
+        <input type="text" id="Subject" name="Subject" required>
+        <br><br>
+
+        <label for="Message">Message:</label>
+        <textarea id="Message" name="Message" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
